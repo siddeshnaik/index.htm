@@ -1,0 +1,85 @@
+header{
+
+	background-color: orange;
+	padding: 0.5px
+
+}
+
+
+ul{
+	list-style: none;
+}
+
+li{
+	font-family: IBM Plex Sans Condensed;
+	display: inline;
+	margin: 40px
+
+}
+
+li a {
+	color: white ;
+	text-decoration: none;
+
+}	
+
+li a:hover{
+	color: black ;
+	text-decoration: underline;
+}
+h1{
+	font-family:IBM Plex Sans Condensed ;
+	text-align: center;
+	color: black ;
+	text-indent: 40px ;
+	padding: 1px ;
+}
+hr{
+	border: 2px solid black;
+	width: 37%;
+}
+footer{
+	background-color: green;
+	padding: 3px; 
+}
+
+.make_changes_head{
+	font-family: IBM Plex Sans Condensed;
+	padding: 10px;
+
+}
+
+.make_changes_to_list{
+	font-family: IBM Plex Sans Condensed;
+	display: inline;
+	margin: 20px ;
+
+}
+
+.make_changes_to_url{
+	color: black ;
+	text-decoration: none;
+}
+.make_changes_to_url:hover{
+	color: white ;
+	text-decoration: underline;
+}
+
+.make_allignment{
+	text-align: center;
+}
+.text_change{
+	font-family: IBM Plex Sans Condensed;		
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.grid-item {
+  padding: 20px;
+
+}
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 5;
+}
